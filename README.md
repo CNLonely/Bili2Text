@@ -10,9 +10,16 @@
 
 BBDown下载地址:https://github.com/nilaoda/BBDown/releases/
 
+记得要把openai相关的key换成你自己的
+```python
+    url = "https://api.openai.com"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer 你的apiKey" # 替换为你的API key
+    }
+```
 
-
-代码示例
+使用示例
 ```python
 if __name__ == "__main__":
     print(bilibili_summary('https://www.bilibili.com/video/BV1vu411u7bM/')) # 测试用例
