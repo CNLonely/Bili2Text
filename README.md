@@ -6,8 +6,11 @@
 ## 使用方法:
 
 确保下载了BBDown并将其放在bili2text.py文件所在的目录下
+<img src="assets/screenshot2.png" alt="screenshot2" width="600"/>
 
 BBDown下载地址:https://github.com/nilaoda/BBDown/releases/
+
+
 
 代码示例
 ```python
